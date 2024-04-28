@@ -1,0 +1,22 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+scrolloff = 4
+cursorline = true
+bufferline = "multiple"
+color-modes = true
+popup-border = "all"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.indent-guides]
+render = true
+
+
+[keys.normal]
+"space" = {g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]}
+
+[keys.insert]
+k = {j = "normal_mode"}
